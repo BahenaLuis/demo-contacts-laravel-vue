@@ -41,6 +41,7 @@ class StudentController extends Controller
     {          
         $this->validate($request,[
             'firstname' => 'required|min:5',
+            'lastname' => 'required|min:5',
         ]);
 
         Student::create($request->all());

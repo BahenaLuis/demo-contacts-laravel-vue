@@ -38,11 +38,11 @@ use Inertia\Inertia;
 
 Route::get('/', [StudentController::class, 'index'])->name('student.index');
 
-//Route::post('/students/create', [StudentController::class, 'store'])->name('students.store');
+Route::post('/students/create', [StudentController::class, 'store'])->name('students.store');
 
 Route::resource('students', App\Http\Controllers\StudentController::class);
 
-Route::post('/students/create', "StudentController@store");
+//Route::post('/create', "StudentController@store");
 
 
 // Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
