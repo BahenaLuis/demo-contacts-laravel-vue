@@ -47,14 +47,7 @@
             v-on:close-modal-create="closeModalCreate"
             v-if="modalCreateStudent"
         ></create-student>
-        <div class="modal-backdrop fade show" v-if="modalCreateStudent"></div>  
-
-        <!-- <component 
-            :is="update-student" 
-            v-on:close-modal-update="closeModalUpdate"
-            v-if="modalUpdateStudent"
-            v-bind:student="student"
-        ></component> -->
+        <div class="modal-backdrop fade show" v-if="modalCreateStudent"></div>
 
         <update-student
             v-on:close-modal-update="closeModalUpdate"
