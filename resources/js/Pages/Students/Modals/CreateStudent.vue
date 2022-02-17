@@ -78,7 +78,7 @@
                         </div>
 
                         <button type="submit" class="btn btn-primary">
-                            Submit
+                            Enviar
                         </button>
                     </form>    
                 </div>
