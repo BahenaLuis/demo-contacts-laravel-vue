@@ -112,7 +112,7 @@ export default {
             this.modalUpdateStudent = false;
         },
         removeStudent(student) {
-            if(confirm("Do you want delete this record?")) {
+            if(confirm("¿Quieres eliminar este registro?")) {
                 this.$inertia.delete(this.route("students.destroy", student));
             }            
         }
