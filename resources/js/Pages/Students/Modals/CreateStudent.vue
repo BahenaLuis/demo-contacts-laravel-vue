@@ -129,10 +129,7 @@ export default {
         closeModal() {
             this.$emit("close-modal-create");
         },
-        createStudent() {
-            //this.$inertia.post(this.route("students.store"), this.form.student);
-            //this.$emit("close-modal-create");
-
+        createStudent() {            
             axios
                 .post("/students/create", this.form.student)
                 .then((response) => {                    
