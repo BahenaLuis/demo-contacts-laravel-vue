@@ -118,7 +118,7 @@ export default {
         }
     },
 
-    //variables that changed depending of other variables
+    //variables que cambian su valor dependiendo de otras variables
     computed: {},
 
     //variables that changed depending of the change of a variable
